@@ -1,11 +1,14 @@
 ## Finding Lane Lines on the Road
 
-In this project, I use the tools I have learned about in Udacity's Self-driving Car Nanodegree lesson to identify lane lines on the road. I develop my pipeline on a series of individual images, and later apply the result to a video stream (which is really just a series of images). 
+In this project, I use the tools I have learned about in Udacity's Self-driving Car Nanodegree to identify lane lines on the road. I develop my pipeline on a series of individual images, and later apply the result to a video stream (which is really just a series of images). 
 
 The tools I use are color selection, region of interest selection, grayscaling, Gaussian smoothing, Canny Edge Detection and Hough Tranform line detection. I piece together a pipeline to detect the line segments in the image, then average/extrapolate them and draw them onto the image for display. Once I have a working pipeline, try it out on the video stream below.
 
 This repository contains the following files:
-
+* P1.ipynb - Jupyter Notebook with python code
+* A folder with several test images
+* Two original videos, solidWhiteRight.mp4 and solidYellowLeft.mp4
+* Two processed videos with identified lane lines, white.mp4 and yellow.mp4
 
 
 ### Reflection
